@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import AcumuladoDiario
 
-# Register your models here.
+
+@admin.register(AcumuladoDiario)
+class AcumuladoDiarioAdmin(admin.ModelAdmin):
+    list_filter = ['data']
