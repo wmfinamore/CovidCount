@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 django = "*"
 python-decouple = "*"
+django-admin-interface = "*"
 
 [requires]
 python_version = "3.9"

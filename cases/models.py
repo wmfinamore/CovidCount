@@ -1,8 +1,9 @@
 from django.db import models
+from datetime import date
 
 
 class AcumuladoDiario(models.Model):
-    data = models.DateField(blank=False, null=False)
+    data = models.DateField(blank=False, null=False, unique=True)
     casosConfirmados = models.PositiveIntegerField(blank=False, null=False,
                                                    help_text="Casos confirmados")
     casosDescartados = models.PositiveIntegerField(blank=False, null=False,
@@ -17,7 +18,8 @@ class AcumuladoDiario(models.Model):
                                                   help_text="Óbtidos suspeitos de COVID-19")
 
     def __str__(self):
-        return f'Casos acumulados até o dia {self.data}'
+        d = date.fromisoformat(str(self.data))
+        return f'Casos acumulados até o dia {d.strftime("%d/%m/%Y")}'
 
     class Meta:
         ordering = ['-data']
