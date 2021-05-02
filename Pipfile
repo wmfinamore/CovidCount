@@ -12,6 +12,7 @@ django-admin-interface = "*"
 djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
+mkdocs = "*"
 
 [requires]
 python_version = "3.9"
