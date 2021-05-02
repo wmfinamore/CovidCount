@@ -4,6 +4,7 @@
     <list default="true" id="41e21348-0d2b-4b7d-a899-ae5b30a25011" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidcount/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidcount/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidcount/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidcount/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
