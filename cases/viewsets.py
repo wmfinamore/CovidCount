@@ -4,6 +4,6 @@ from rest_framework import viewsets
 
 
 # ViewSets define the view behavior
-class AcumuladoDiarioViewSet(viewsets.ModelViewSet):
+class AcumuladoDiarioViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = AcumuladoDiario.objects.all()
     serializer_class = AcumuladoDiarioSerializer
