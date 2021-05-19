@@ -13,6 +13,7 @@ djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
 mkdocs = "*"
+drf-yasg = "*"
 
 [requires]
 python_version = "3.9"
